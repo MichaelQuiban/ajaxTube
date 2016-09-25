@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Documentary Search</title>
-		<!--CSS-->
-		<link rel="stylesheet" href="css/styles.css">
-		<!--Javascript-->
-		<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/app.js"></script>
-		</head>
-	<body>
-		<h1>Youtube Search</h1>
-		<form id="search-form">
-			<input id="search" type="text">
-			<button type="submit">Submit</button>
-		</form>
-		<div id="results"></div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Documentary Search</title>
+        
+        <!--CSS-->
+        <link rel="stylesheet" href="css/styles.css"> 
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Trocchi" rel="stylesheet">
+        <!--end-->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Javascript-->
+        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <!--end-->
+        </head>
+    
+        <body>
+            <!-- Social Media Plug -->
+             <nav id="social-nav"> 
+                <a href="">Github+</a>
+                <a href="">Twitter+</a>
+                <a href="">Email+ </a>
+             </nav>   
+
+            <!-- Header above the search bar -->
+            <header id="api-header">Perform a search . . .</header>
+    
+            <!-- User commits a search below -->
+            <form id="search-form">
+                <input id="search" type="text">
+                <button type="submit" id="submit">Submit</button>
+            </form>
+
+            <!-- Youtube Data Results Below -->
+            <div id="results"></div>
+              
+        </body>
 </html>

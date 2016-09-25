@@ -1,3 +1,22 @@
 body {
-	color: black;
+	background-color: #EF6461;
+}
+#social-nav {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: 'Trocchi', serif;
+	word-spacing: 20px;
+
+}
+
+
+#api-header {
+	font-family: 'Trocchi', serif;
+	font-size: 1.5em;
+}
+
+#submit {
+	background: none;
+  	border: none;
+  	font-size: 1em;
 }
