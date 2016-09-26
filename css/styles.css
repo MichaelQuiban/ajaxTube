@@ -3,6 +3,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: #403D39;
 }
 
 a:active {
@@ -11,11 +12,11 @@ a:active {
 
 #social-nav {
 	max-width: 1200px;
-	margin: 0 auto;
 	padding: 10px;
 	font-family: 'Trocchi', serif;
-	word-spacing: 5em;
+	word-spacing: 2em;
 	float: left;
+	border: solid 1px;
 }
 
 
@@ -31,6 +32,13 @@ a:active {
 }
 
 #search-content {
-	margin: 0 auto;
-	width: 500px;
+	position: relative;
+	top: 125px;
+	left: 250px;
+}
+
+#results {
+	position: relative;
+	left: 650px;
+	top: 180px;
 }
