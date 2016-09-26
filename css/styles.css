@@ -1,12 +1,21 @@
 body {
 	background-color: #EF6461;
 }
+a {
+	text-decoration: none;
+}
+
+a:active {
+	opacity: 0.5;
+}
+
 #social-nav {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 10px;
 	font-family: 'Trocchi', serif;
-	word-spacing: 20px;
-
+	word-spacing: 5em;
+	float: left;
 }
 
 
@@ -17,6 +26,11 @@ body {
 
 #submit {
 	background: none;
-  	border: none;
+  	border: 1px solid;
   	font-size: 1em;
+}
+
+#search-content {
+	margin: 0 auto;
+	width: 500px;
 }
