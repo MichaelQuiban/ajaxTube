@@ -18,10 +18,10 @@ $(document).ready(function() {
 					console.log(dataLength);
 					console.log(results);
 					//Append these dang results.
-					$("#results").append("<p> Channel Title:</p>" + results[i].snippet.title + "<br>");
-					$("#results").append("<p> Channel Title:</p>" + results[i].snippet.description + "<br>");
-					$("#results").append("<p> Channel Title:</p>" + results[i].snippet.publishedAt + "<br>");
-					$("#results").append("<p> Channel Title:</p>" + results[i].snippet.channelTitle + "<br>");
+					$("#results").append("<p> Channel Title:</p>" + results[i].id.videoId + "<br>");
+					//$("#results").append("<p> Channel Title:</p>" + results[i].snippet.description + "<br>");
+					//$("#results").append("<p> Channel Title:</p>" + results[i].snippet.publishedAt + "<br>");
+					//$("#results").append("<p> Channel Title:</p>" + results[i].snippet.channelTitle + "<br>");
 				};
 		});
 	}
